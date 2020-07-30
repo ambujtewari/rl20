@@ -76,6 +76,7 @@ on span of optimal bias vector is known, then their Estimate the Bias Function (
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{BSAT})" title="\tilde{O}(\sqrt{BSAT})" />
 regret.
 
+Daniel Russo
 [Worst-Case Regret Bounds for Exploration via
 Randomized Value Functions](https://papers.nips.cc/paper/9587-worst-case-regret-bounds-for-exploration-via-randomized-value-functions.pdf)
 NeurIPS 2019 \
