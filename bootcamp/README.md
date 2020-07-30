@@ -29,17 +29,17 @@ Optimistic Value Iteration (UCBVI) achieves regret bound of
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(HS\sqrt{AT}&plus;H^2S^2A&plus;H\sqrt{T})" title="\tilde{O}(HS\sqrt{AT}+H^2S^2A+H\sqrt{T})" /> in finite horizon problem.
 Improvements obtained by (a) avoiding concentration argument for transition function (for state) and (b) using empirical Bernstein inequality (for horizon)
 
-Andrea Zanette, Emma Brunskill
-[Tighter Problem-Dependent Regret Bounds in Reinforcement Learning
-without Domain Knowledge using Value Function Bounds](http://proceedings.mlr.press/v97/zanette19a/zanette19a.pdf)
-ICML 2019
-
 Chi Jin, Zeyuan Allen-Zhu, Sebastien Bubeck, Michael I. Jordan
 [Is Q-learning Provably Efficient?](https://papers.nips.cc/paper/7735-is-q-learning-provably-efficient.pdf)
 NeurIPS 2018 \
 Q-Learning with UCB-Hoeffding achieves <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{H^4SAT})" title="\tilde{O}(\sqrt{H^4SAT})" /> regret.
 Q-Learning with UCB-Bernstein achieves <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{H^3SAT}&plus;\sqrt{H^9S^3A^3})" title="\tilde{O}(\sqrt{H^3SAT}+\sqrt{H^9S^3A^3})" /> regret.
 Lower bound of <img src="https://latex.codecogs.com/gif.latex?\Omega(\sqrt{H^2SAT})" title="\Omega(\sqrt{H^2SAT})" /> is provided.
+
+Andrea Zanette, Emma Brunskill
+[Tighter Problem-Dependent Regret Bounds in Reinforcement Learning
+without Domain Knowledge using Value Function Bounds](http://proceedings.mlr.press/v97/zanette19a/zanette19a.pdf)
+ICML 2019
 
 Max Simchowitz, Kevin G. Jamieson
 [Non-Asymptotic Gap-Dependent Regret Bounds for
