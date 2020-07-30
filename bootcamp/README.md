@@ -75,4 +75,7 @@ in the non-episodic setting
 
 Shipra Agrawal, Randy Jia
 [Posterior sampling for reinforcement learning: worst-case regret bounds](https://arxiv.org/pdf/1705.07041v3.pdf)
-arXiv 30 Mar 2020
+arXiv 30 Mar 2020 \
+Worst-case analysis of a posterior sampling based (but not posterior sampling itself) algorithm yields 
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(DS\sqrt{AT})" title="\tilde{O}(DS\sqrt{AT})" />
+regret in non-episodic setting
