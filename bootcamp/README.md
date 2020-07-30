@@ -20,7 +20,9 @@ NIPS 2006
 Thomas Jaksch, Ronald Ortner, Peter Auer
 [Near-optimal Regret Bounds for Reinforcement Learning](http://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)
 JMLR 2010 \
-UCRL2 algorithm with regret bound <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(DS\sqrt{AT})" title="\tilde{O}(DS\sqrt{AT})" />.
+UCRL2 algorithm in non-episodic setting with diameter
+<img src="https://latex.codecogs.com/gif.latex?D" title="D" />
+achieves a regret bound of <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(DS\sqrt{AT})" title="\tilde{O}(DS\sqrt{AT})" />.
 Lower bound of <img src="https://latex.codecogs.com/gif.latex?\Omega(\sqrt{DSAT})" title="\Omega(\sqrt{DSAT})" /> is given.
 If MDP changes <img src="https://latex.codecogs.com/gif.latex?L" title="L" /> times then regret bound of
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(L^{1/3}T^{2/3}DS\sqrt{A})" title="\tilde{O}(L^{1/3}T^{2/3}DS\sqrt{A})" />
@@ -63,6 +65,13 @@ Max Simchowitz, Kevin G. Jamieson
 [Non-Asymptotic Gap-Dependent Regret Bounds for
 Tabular MDPs](https://papers.nips.cc/paper/8399-non-asymptotic-gap-dependent-regret-bounds-for-tabular-mdps.pdf)
 NeurIPS 2019
+
+Aristide Tossou, Debabrota Basu, Christos Dimitrakakis
+[Near-optimal Optimistic Reinforcement Learning using Empirical Bernstein Inequalities](https://arxiv.org/pdf/1905.12425v2.pdf)
+arXiv 11 Dec 2019 \
+Claims that their UCRL-V algorithm achieves optimal (up to logarithmic factors) regret bound of 
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{DSAT})" title="\tilde{O}(\sqrt{DSAT})" />
+in the non-episodic setting 
 
 Shipra Agrawal, Randy Jia
 [Posterior sampling for reinforcement learning: worst-case regret bounds](https://arxiv.org/pdf/1705.07041v3.pdf)
