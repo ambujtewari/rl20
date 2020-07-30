@@ -5,6 +5,10 @@ Sham Kakade
 Reinforcement Learning](https://homes.cs.washington.edu/~sham/papers/thesis/sham_thesis.pdf)
 PhD Thesis 2003
 
+Peter Auer, Ronald Ortner
+[Logarithmic Online Regret Bounds for Undiscounted Reinforcement Learning](https://papers.nips.cc/paper/3052-logarithmic-online-regret-bounds-for-undiscounted-reinforcement-learning.pdf)
+NIPS 2006
+
 Thomas Jaksch, Ronald Ortner, Peter Auer
 [Near-optimal Regret Bounds for Reinforcement Learning](http://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)
 JMLR 2010 \
