@@ -2,8 +2,7 @@
 
 Sham Kakade
 [On the Sample Complexity of
-Reinforcement Learning]
-(https://homes.cs.washington.edu/~sham/papers/thesis/sham_thesis.pdf)
+Reinforcement Learning](https://homes.cs.washington.edu/~sham/papers/thesis/sham_thesis.pdf)
 PhD Thesis 2003
 
 Thomas Jaksch, Ronald Ortner, Peter Auer
