@@ -1,4 +1,10 @@
-# Bibliography on Online Learning in MDPs
+# Bibliography on Learning in MDPs
+
+Sham Kakade
+[On the Sample Complexity of
+Reinforcement Learning]
+(https://homes.cs.washington.edu/~sham/papers/thesis/sham_thesis.pdf)
+PhD Thesis 2003
 
 Thomas Jaksch, Ronald Ortner, Peter Auer
 [Near-optimal Regret Bounds for Reinforcement Learning](http://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)
