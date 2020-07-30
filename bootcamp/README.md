@@ -96,7 +96,10 @@ in the episodic setting
 Yonathan Efroni, Nadav Merlis, Mohammad Ghavamzadeh, Shie Mannor
 [Tight Regret Bounds for Model-Based Reinforcement
 Learning with Greedy Policies](https://papers.nips.cc/paper/9389-tight-regret-bounds-for-model-based-reinforcement-learning-with-greedy-policies.pdf)
-NeurIPS 2019
+NeurIPS 2019 \
+Exploring with greedy policies (act by 1-step planning) achieves tight minimax regret bound of
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{HSAT})" title="\tilde{O}(\sqrt{HSAT})" />
+in episodic setting.
 
 Aristide Tossou, Debabrota Basu, Christos Dimitrakakis
 [Near-optimal Optimistic Reinforcement Learning using Empirical Bernstein Inequalities](https://arxiv.org/pdf/1905.12425v2.pdf)
