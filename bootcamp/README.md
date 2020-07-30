@@ -76,6 +76,13 @@ on span of optimal bias vector is known, then their Estimate the Bias Function (
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{BSAT})" title="\tilde{O}(\sqrt{BSAT})" />
 regret.
 
+[Worst-Case Regret Bounds for Exploration via
+Randomized Value Functions](https://papers.nips.cc/paper/9587-worst-case-regret-bounds-for-exploration-via-randomized-value-functions.pdf)
+NeurIPS 2019 \
+Worst-case regret analysis of Randomized Least Squares Value Iteration (RLSVI) yields a regret bound of
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^3S\sqrt{SAT})" title="\tilde{O}(H^3S\sqrt{SAT})" />
+in the episodic setting
+
 Aristide Tossou, Debabrota Basu, Christos Dimitrakakis
 [Near-optimal Optimistic Reinforcement Learning using Empirical Bernstein Inequalities](https://arxiv.org/pdf/1905.12425v2.pdf)
 arXiv 11 Dec 2019 \
