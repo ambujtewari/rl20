@@ -49,6 +49,15 @@ Optimistic Value Iteration (UCBVI) achieves regret bound of
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(HS\sqrt{AT}&plus;H^2S^2A&plus;H\sqrt{T})" title="\tilde{O}(HS\sqrt{AT}+H^2S^2A+H\sqrt{T})" /> in finite horizon problem.
 Improvements obtained by (a) avoiding concentration argument for transition function (for state) and (b) using empirical Bernstein inequality (for horizon)
 
+Yi Ouyang, Mukul Gagrani, Ashutosh Nayyar, Rahul Jain
+[Learning Unknown Markov Decision Processes: A Thompson Sampling Approach](https://papers.nips.cc/paper/6732-learning-unknown-markov-decision-processes-a-thompson-sampling-approach.pdf)
+NIPS 2017 \
+Thompson Sampling is analyzed in the non-episodic case assuming that the prior only contains MDPs with span of optimal bias vector bounded by
+<img src="https://latex.codecogs.com/gif.latex?B" title="B" />.
+A regret bound of
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(BS\sqrt{AT})" title="\tilde{O}(BS\sqrt{AT})" />
+is established
+
 Chi Jin, Zeyuan Allen-Zhu, Sebastien Bubeck, Michael I. Jordan
 [Is Q-learning Provably Efficient?](https://papers.nips.cc/paper/7735-is-q-learning-provably-efficient.pdf)
 NeurIPS 2018 \
