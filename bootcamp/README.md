@@ -37,3 +37,4 @@ NeurIPS 2019
 
 Shipra Agrawal, Randy Jia
 [Posterior sampling for reinforcement learning: worst-case regret bounds](https://arxiv.org/pdf/1705.07041v3.pdf)
+arXiv 30 Mar 2020
