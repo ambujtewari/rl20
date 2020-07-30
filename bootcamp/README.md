@@ -30,6 +30,12 @@ Andrea Zanette, Emma Brunskill
 without Domain Knowledge using Value Function Bounds](http://proceedings.mlr.press/v97/zanette19a/zanette19a.pdf)
 ICML 2019
 
+Chi Jin, Zeyuan Allen-Zhu, Sebastien Bubeck, Michael I. Jordan
+[Is Q-learning Provably Efficient?](https://papers.nips.cc/paper/7735-is-q-learning-provably-efficient.pdf)
+NeurIPS 2018 \
+Q-Learning with UCB-Hoeffding achieves <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^4\sqrt{SAT})" title="\tilde{O}(H^4\sqrt{SAT})" /> regret.
+Q-Learning with UCB-Bernstein achieves 
+
 Max Simchowitz, Kevin G. Jamieson
 [Non-Asymptotic Gap-Dependent Regret Bounds for
 Tabular MDPs](https://papers.nips.cc/paper/8399-non-asymptotic-gap-dependent-regret-bounds-for-tabular-mdps.pdf)
