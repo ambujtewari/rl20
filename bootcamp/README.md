@@ -1,5 +1,9 @@
 # Bibliography on Learning in MDPs
 
+Michael Kearns & Satinder Singh
+[Near-Optimal Reinforcement Learning in Polynomial Time](https://doi.org/10.1023/A:1017984413808)
+MLJ 2002
+
 Sham Kakade
 [On the Sample Complexity of
 Reinforcement Learning](https://homes.cs.washington.edu/~sham/papers/thesis/sham_thesis.pdf)
