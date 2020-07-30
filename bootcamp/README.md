@@ -93,6 +93,11 @@ Worst-case regret analysis of Randomized Least Squares Value Iteration (RLSVI) y
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^3S\sqrt{SAT})" title="\tilde{O}(H^3S\sqrt{SAT})" />
 in the episodic setting
 
+Yonathan Efroni, Nadav Merlis, Mohammad Ghavamzadeh, Shie Mannor
+[Tight Regret Bounds for Model-Based Reinforcement
+Learning with Greedy Policies](https://papers.nips.cc/paper/9389-tight-regret-bounds-for-model-based-reinforcement-learning-with-greedy-policies.pdf)
+NeurIPS 2019
+
 Aristide Tossou, Debabrota Basu, Christos Dimitrakakis
 [Near-optimal Optimistic Reinforcement Learning using Empirical Bernstein Inequalities](https://arxiv.org/pdf/1905.12425v2.pdf)
 arXiv 11 Dec 2019 \
