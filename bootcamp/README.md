@@ -18,6 +18,13 @@ If MDP changes <img src="https://latex.codecogs.com/gif.latex?L" title="L" /> ti
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(L^{1/3}T^{2/3}DS\sqrt{A})" title="\tilde{O}(L^{1/3}T^{2/3}DS\sqrt{A})" />
 is given.
 
+Mohammad Gheshlaghi Azar, Ian Osband, Rémi Munos
+[Minimax Regret Bounds for Reinforcement Learning](http://proceedings.mlr.press/v70/azar17a/azar17a.pdf)
+ICML 2017 \
+Optimistic Value Iteration (UCBVI) achieves regret bound of
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(HS\sqrt{AT}&plus;H^2S^2A&plus;H\sqrt{T})" title="\tilde{O}(HS\sqrt{AT}+H^2S^2A+H\sqrt{T})" /> in finite horizon problem.
+Improvements obtained by (a) avoiding concentration argument for transition function (for state) and (b) using empirical Bernstein inequality (for horizon)
+
 Andrea Zanette, Emma Brunskill
 [Tighter Problem-Dependent Regret Bounds in Reinforcement Learning
 without Domain Knowledge using Value Function Bounds](http://proceedings.mlr.press/v97/zanette19a/zanette19a.pdf)
