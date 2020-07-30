@@ -3,7 +3,7 @@
 Thomas Jaksch, Ronald Ortner, Peter Auer
 [Near-optimal Regret Bounds for Reinforcement Learning](http://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)
 JMLR 2010
-UCRL2 algorithm with regret bound <a href="https://www.codecogs.com/eqnedit.php?latex=\tilde{O}(DS\sqrt{AT})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\tilde{O}(DS\sqrt{AT})" title="\tilde{O}(DS\sqrt{AT})" /></a>
+UCRL2 algorithm with regret bound <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(DS\sqrt{AT})" title="\tilde{O}(DS\sqrt{AT})" />
 
 Andrea Zanette, Emma Brunskill
 [Tighter Problem-Dependent Regret Bounds in Reinforcement Learning
