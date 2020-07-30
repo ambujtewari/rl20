@@ -22,6 +22,13 @@ If MDP changes <img src="https://latex.codecogs.com/gif.latex?L" title="L" /> ti
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(L^{1/3}T^{2/3}DS\sqrt{A})" title="\tilde{O}(L^{1/3}T^{2/3}DS\sqrt{A})" />
 is given.
 
+
+[(More) Efficient Reinforcement Learning via
+Posterior Sampling](https://papers.nips.cc/paper/5185-more-efficient-reinforcement-learning-via-posterior-sampling.pdf)
+Posterior Sampling for Reinforcement Learning (PSRL) enjoys Bayesian regret bound of
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(HS\sqrt{AT})" title="\tilde{O}(HS\sqrt{AT})" />
+in episodic setting.
+
 Mohammad Gheshlaghi Azar, Ian Osband, Rémi Munos
 [Minimax Regret Bounds for Reinforcement Learning](http://proceedings.mlr.press/v70/azar17a/azar17a.pdf)
 ICML 2017 \
