@@ -79,3 +79,10 @@ arXiv 30 Mar 2020 \
 Worst-case analysis of a posterior sampling based (but not posterior sampling itself) algorithm yields 
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(DS\sqrt{AT})" title="\tilde{O}(DS\sqrt{AT})" />
 regret in non-episodic setting
+
+Aldo Pacchiano, Philip Ball, Jack Parker-Holder, Krzysztof Choromanski, Stephen Roberts
+[On Optimism in Model-Based Reinforcement Learning](https://arxiv.org/pdf/2006.11911.pdf)
+arXiv 21 Jun 2020 \
+Gaussian Noise Augmented RL algorithm achieves regret bound of
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(SH\sqrt{SAT})" title="\tilde{O}(SH\sqrt{SAT})" />
+in episodic setting
