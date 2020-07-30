@@ -20,7 +20,7 @@ NIPS 2006
 Thomas Jaksch, Ronald Ortner, Peter Auer
 [Near-optimal Regret Bounds for Reinforcement Learning](http://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)
 JMLR 2010
-UCRL2 algorithm in non-episodic setting with diameter
+- UCRL2 algorithm in non-episodic setting with diameter
 <img src="https://latex.codecogs.com/gif.latex?D" title="D" />
 achieves a regret bound of <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(DS\sqrt{AT})" title="\tilde{O}(DS\sqrt{AT})" />.
 Lower bound of <img src="https://latex.codecogs.com/gif.latex?\Omega(\sqrt{DSAT})" title="\Omega(\sqrt{DSAT})" /> is given.
