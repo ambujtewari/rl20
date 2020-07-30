@@ -46,7 +46,8 @@ Mohammad Gheshlaghi Azar, Ian Osband, Rémi Munos
 [Minimax Regret Bounds for Reinforcement Learning](http://proceedings.mlr.press/v70/azar17a/azar17a.pdf)
 ICML 2017 \
 Optimistic Value Iteration (UCBVI) achieves regret bound of
-<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(HS\sqrt{AT}&plus;H^2S^2A&plus;H\sqrt{T})" title="\tilde{O}(HS\sqrt{AT}+H^2S^2A+H\sqrt{T})" /> in finite horizon problem.
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{HSAT}&plus;H^2S^2A&space;&plus;&space;H\sqrt{T})" title="\tilde{O}(\sqrt{HSAT}+H^2S^2A + H\sqrt{T})" />
+in finite horizon problem.
 Improvements obtained by (a) avoiding concentration argument for transition function (for state) and (b) using empirical Bernstein inequality (for horizon)
 
 Yi Ouyang, Mukul Gagrani, Ashutosh Nayyar, Rahul Jain
