@@ -1,10 +1,10 @@
 # Bibliography on Learning in MDPs
 
-Michael Kearns & Satinder Singh
+- Michael Kearns & Satinder Singh
 [Near-Optimal Reinforcement Learning in Polynomial Time](https://doi.org/10.1023/A:1017984413808)
 MLJ 2002
 
-Ronen I. Brafman, Moshe Tennenholtz
+- Ronen I. Brafman, Moshe Tennenholtz
 [R-MAX - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning](http://www.jmlr.org/papers/volume3/brafman02a/brafman02a.pdf)
 JMLR 2002
 
