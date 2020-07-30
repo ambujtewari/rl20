@@ -119,3 +119,9 @@ Gaussian Noise Augmented RL algorithm achieves regret bound of
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(SH\sqrt{SAT})" title="\tilde{O}(SH\sqrt{SAT})" />
 in episodic setting
 
+Qi Cai, Zhuoran Yang, Chi Jin, Zhaoran Wang
+[Provably Efficient Exploration in Policy Optimization](https://arxiv.org/pdf/1912.05830.pdf)
+arXiv 6 Jul 2020 \
+Studies an Optimistic verion of Proximal Policy Optimization (OPPO) is episodic linear MDPs. When specialized
+to tabular setting the regret bound is
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^{3/2}S^2A\sqrt{T})" title="\tilde{O}(H^{3/2}S^2A\sqrt{T})" />
