@@ -23,3 +23,6 @@ Max Simchowitz, Kevin G. Jamieson
 [Non-Asymptotic Gap-Dependent Regret Bounds for
 Tabular MDPs](https://papers.nips.cc/paper/8399-non-asymptotic-gap-dependent-regret-bounds-for-tabular-mdps.pdf)
 NeurIPS 2019
+
+Shipra Agrawal, Randy Jia
+[Posterior sampling for reinforcement learning: worst-case regret bounds](https://arxiv.org/pdf/1705.07041v3.pdf)
