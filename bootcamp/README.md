@@ -66,6 +66,16 @@ Max Simchowitz, Kevin G. Jamieson
 Tabular MDPs](https://papers.nips.cc/paper/8399-non-asymptotic-gap-dependent-regret-bounds-for-tabular-mdps.pdf)
 NeurIPS 2019
 
+Zihan Zhang, Xiangyang Ji
+[Regret Minimization for Reinforcement Learning by
+Evaluating the Optimal Bias Function](https://papers.nips.cc/paper/8549-regret-minimization-for-reinforcement-learning-by-evaluating-the-optimal-bias-function.pdf)
+NeurIPS 2019 \
+If bound
+<img src="https://latex.codecogs.com/gif.latex?B" title="B" />
+on span of optimal bias vector is known, then their Estimate the Bias Function (EBF) algorithm achieves
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{BSAT})" title="\tilde{O}(\sqrt{BSAT})" />
+regret.
+
 Aristide Tossou, Debabrota Basu, Christos Dimitrakakis
 [Near-optimal Optimistic Reinforcement Learning using Empirical Bernstein Inequalities](https://arxiv.org/pdf/1905.12425v2.pdf)
 arXiv 11 Dec 2019 \
@@ -86,3 +96,4 @@ arXiv 21 Jun 2020 \
 Gaussian Noise Augmented RL algorithm achieves regret bound of
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(SH\sqrt{SAT})" title="\tilde{O}(SH\sqrt{SAT})" />
 in episodic setting
+
