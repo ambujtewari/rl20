@@ -113,6 +113,12 @@ Claims that their UCRL-V algorithm achieves optimal (up to logarithmic factors) 
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{DSAT})" title="\tilde{O}(\sqrt{DSAT})" />
 in the non-episodic setting 
 
+Chi Jin, Zhuoran Yang, Zhaoran Wang, Michael I. Jordan
+[Provably Efficient Reinforcement Learning with Linear Function Approximation](http://proceedings.mlr.press/v125/jin20a/jin20a.pdf)
+COLT 2020\
+Analyses and optimistic modification of LSVI with a regret bound of <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{d^3H^3T})" title="\tilde{O}(\sqrt{d^3H^3T})" />.
+
+
 Shipra Agrawal, Randy Jia
 [Posterior sampling for reinforcement learning: worst-case regret bounds](https://arxiv.org/pdf/1705.07041v3.pdf)
 arXiv 30 Mar 2020 \
@@ -139,10 +145,6 @@ Studies an Optimistic verion of Proximal Policy Optimization (OPPO) is episodic 
 to tabular setting the regret bound is
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^{3/2}S^2A\sqrt{T})" title="\tilde{O}(H^{3/2}S^2A\sqrt{T})" />
 
-Chi Jin, Zhuoran Yang, Zhaoran Wang, Michael I. Jordan
-[Provably Efficient Reinforcement Learning with Linear Function Approximation](https://arxiv.org/abs/1907.05388)
-arxiv 8 Aug 2019\
-Analyses and optimistic modification of LSVI with a regret bound of <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{d^3H^3T})" title="\tilde{O}(\sqrt{d^3H^3T})" />.
 
 Chen-Yu Wei, Mehdi Jafarnia-Jahromi, Haipeng Luo, Hiteshi Sharma, Rahul Jain
 [Model-free Reinforcement Learning in Infinite-horizon Average-reward Markov Decision Processes](https://arxiv.org/abs/1910.07072)
