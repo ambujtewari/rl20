@@ -72,7 +72,7 @@ without Domain Knowledge using Value Function Bounds](http://proceedings.mlr.pre
 ICML 2019
 
 Christoph Dann, Lihong Li, Wei Wei, Emma Brunskill
-[Policy Certificates: Towards Accountable Reinforcement Learning](http://proceedings.mlr.press/v97/dann19a.pdf) ICML 2019\
+[Policy Certificates: Towards Accountable Reinforcement Learning](http://proceedings.mlr.press/v97/dann19a/dann19a.pdf) ICML 2019\
 Proposes a policy certificate notion which can unify PAC and regret bounds and proposes algorithms for tabular MDPs and MDPs with side-information. The tabular algorithm obtains minimax optimal PAC and regret bounds.
 
 Max Simchowitz, Kevin G. Jamieson
