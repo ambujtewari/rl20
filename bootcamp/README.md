@@ -119,6 +119,10 @@ COLT 2020\
 Analyses and optimistic modification of LSVI with a regret bound of <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{d^3H^3T})" title="\tilde{O}(\sqrt{d^3H^3T})" /> in linear MDP with feature space of dimension
 <img src="https://latex.codecogs.com/gif.latex?d" title="d" />.
 
+Chen-Yu Wei, Mehdi Jafarnia-Jahromi, Haipeng Luo, Hiteshi Sharma, Rahul Jain
+[Model-free Reinforcement Learning in Infinite-horizon Average-reward Markov Decision Processes](https://proceedings.icml.cc/static/paper_files/icml/2020/4595-Paper.pdf)
+ICML 2020\
+Proposes two algorithms: Optimistic Q-learning for weakly communicating MDPs with regret <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\text{sp}(v^*)T^{2/3}(SA)^{1/3})" title="\tilde{O}(B T^{2/3}(SA)^{1/3})" />, where $B$ is a bound on the span of the optimal bias function, and the optimistic OMD algorithm for ergodic MDPs with regret <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{t_{\text{mix}}\rho&space;AT})" title="\tilde{O}(\sqrt{t_{\text{mix}}\rho AT})" /> where there is dependence on the mixing time of the MDP and the worst-case distribution-mismatch coefficient.
 
 Shipra Agrawal, Randy Jia
 [Posterior sampling for reinforcement learning: worst-case regret bounds](https://arxiv.org/pdf/1705.07041v3.pdf)
@@ -147,10 +151,6 @@ to tabular setting the regret bound is
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^{3/2}S^2A\sqrt{T})" title="\tilde{O}(H^{3/2}S^2A\sqrt{T})" />
 
 
-Chen-Yu Wei, Mehdi Jafarnia-Jahromi, Haipeng Luo, Hiteshi Sharma, Rahul Jain
-[Model-free Reinforcement Learning in Infinite-horizon Average-reward Markov Decision Processes](https://arxiv.org/abs/1910.07072)
-arxiv 25 Feb 2020\
-Proposes two algorithms: Optimistic Q-learning for weakly communicating MDPs with regret <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\text{sp}(v^*)T^{2/3}(SA)^{1/3})" title="\tilde{O}(\text{sp}(v^*)T^{2/3}(SA)^{1/3})" /> and the optimistic OMD algorithm for ergodic MDPs with regret <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{t_{\text{mix}}\rho&space;AT})" title="\tilde{O}(\sqrt{t_{\text{mix}}\rho AT})" />.
 
 Andrea Zanette, Alessandro Lazaric, Mykel Kochenderfer, Emma Brunskill
 [Learning Near Optimal Policies with Low Inherent Bellman Error](https://arxiv.org/abs/2003.00153) ICML 2020\
