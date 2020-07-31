@@ -36,6 +36,10 @@ Posterior Sampling for Reinforcement Learning (PSRL) enjoys Bayesian regret boun
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(HS\sqrt{AT})" title="\tilde{O}(HS\sqrt{AT})" />
 in episodic setting.
 
+Kamyar Azizzadenesheli, Alessandro Lazaric, Anima Anandkumar
+[Reinforcement Learning of POMDPs using Spectral Methods](http://proceedings.mlr.press/v49/azizzadenesheli16a.pdf) COLT 2016\
+Proposes an algorithm for POMDPs based on spectral decomposition methods. Under assumptions of ergodicity and identifiability shows a regret bound of <img src="https://latex.codecogs.com/gif.latex?\widetilde{O}(DS^{3/2}\sqrt{AO&space;RT})" title="\widetilde{O}(DS^{3/2}\sqrt{AO RT})" /> with S states, O observations and R rewards.
+
 Ian Osband, Benjamin Van Roy
 [Why is Posterior Sampling Better than Optimism for Reinforcement Learning?](http://proceedings.mlr.press/v70/osband17a/osband17a.pdf)
 ICML 2017 \
@@ -159,12 +163,3 @@ arXiv 6 Jul 2020 \
 Studies an Optimistic verion of Proximal Policy Optimization (OPPO) is episodic linear MDPs. When specialized
 to tabular setting the regret bound is
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^{3/2}S^2A\sqrt{T})" title="\tilde{O}(H^{3/2}S^2A\sqrt{T})" />
-
-Kamyar Azizzadenesheli, Alessandro Lazaric, Anima Anandkumar
-[Reinforcement Learning of POMDPs using Spectral Methods](http://proceedings.mlr.press/v49/azizzadenesheli16a.pdf) COLT 2016\
-Proposes an algorithm for POMDPs based on spectral decomposition methods. Under assumptions of ergodicity and identifiability shows a regret bound of <img src="https://latex.codecogs.com/gif.latex?\widetilde{O}(DX^{3/2}\sqrt{AY&space;RN})" title="\widetilde{O}(DX^{3/2}\sqrt{AY RN})" /> with X states, Y observations and R rewards.
-
-Sean R. Sinclair, Tian-Yu Wang, Gauri Jain, Siddhartha Banerjee, Christina Lee Yu
-[Adaptive Discretization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2007.00717.pdf) arxiv 1 July 2020\
-Proposes a model-free algorithm for metric state-action spaces with adaptive discretization and shows a regret bound of <img src="https://latex.codecogs.com/gif.latex?\widetilde{O}(H^{1&plus;\frac{1}{d&plus;1}}K^{1-\frac{1}{d_S&plus;1}})" title="\widetilde{O}(H^{1+\frac{1}{d+1}}K^{1-\frac{1}{d_S+1}})" /> where <img src="https://latex.codecogs.com/gif.latex?d" title="d" /> and <img src="https://latex.codecogs.com/gif.latex?d_S" title="d_S" /> are covering dimensions for state-action and state spaces.
-
