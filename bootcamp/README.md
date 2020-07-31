@@ -97,6 +97,7 @@ NeurIPS 2019 \
 Worst-case regret analysis of Randomized Least Squares Value Iteration (RLSVI) yields a regret bound of
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^3S\sqrt{SAK})" title="\tilde{O}(H^3S\sqrt{SAK})" />
 in the episodic setting where
+<img src="https://latex.codecogs.com/gif.latex?K" title="K" />
 is the number of episodes.
 
 Yonathan Efroni, Nadav Merlis, Mohammad Ghavamzadeh, Shie Mannor
@@ -114,6 +115,10 @@ Claims that their UCRL-V algorithm achieves optimal (up to logarithmic factors) 
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{DSAT})" title="\tilde{O}(\sqrt{DSAT})" />
 in the non-episodic setting 
 
+Andrea Zanette, David Brandfonbrener, Emma Brunskill, Matteo Pirotta, Alessandro Lazaric
+[Frequentist Regret Bounds for Randomized Least-Squares Value Iteration](http://proceedings.mlr.press/v108/zanette20a/zanette20a.pdf) AISTATS 2020\
+Shows that a randomized version of LSVI also enjoys a high-probability regret bound of <img src="https://latex.codecogs.com/gif.latex?\widetilde{O}(d^2H^2\sqrt{T})" title="\widetilde{O}(d^2H^2\sqrt{T})" /> in low rank MDPs.
+
 Chi Jin, Zhuoran Yang, Zhaoran Wang, Michael I. Jordan
 [Provably Efficient Reinforcement Learning with Linear Function Approximation](http://proceedings.mlr.press/v125/jin20a/jin20a.pdf)
 COLT 2020\
@@ -124,6 +129,10 @@ Chen-Yu Wei, Mehdi Jafarnia-Jahromi, Haipeng Luo, Hiteshi Sharma, Rahul Jain
 [Model-free Reinforcement Learning in Infinite-horizon Average-reward Markov Decision Processes](https://proceedings.icml.cc/static/paper_files/icml/2020/4595-Paper.pdf)
 ICML 2020\
 Proposes two algorithms: Optimistic Q-learning for weakly communicating MDPs with regret <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\text{sp}(v^*)T^{2/3}(SA)^{1/3})" title="\tilde{O}(B T^{2/3}(SA)^{1/3})" />, where $B$ is a bound on the span of the optimal bias function, and the optimistic OMD algorithm for ergodic MDPs with regret <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{t_{\text{mix}}\rho&space;AT})" title="\tilde{O}(\sqrt{t_{\text{mix}}\rho AT})" /> where there is dependence on the mixing time of the MDP and the worst-case distribution-mismatch coefficient.
+
+Andrea Zanette, Alessandro Lazaric, Mykel Kochenderfer, Emma Brunskill
+[Learning Near Optimal Policies with Low Inherent Bellman Error](https://proceedings.icml.cc/static/paper_files/icml/2020/6299-Paper.pdf) ICML 2020\
+Studies finite horizon MDP with linear function approximation under mis-specification. With <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" /> indicating the inherent Bellman error of linear function class, the regret of the algorithm is <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(d\sqrt{H^3K}&plus;H^2\sqrt{d}\epsilon&space;K)" title="\tilde{O}(d\sqrt{H^3K}+H^2\sqrt{d}\epsilon K)" />.
 
 Shipra Agrawal, Randy Jia
 [Posterior sampling for reinforcement learning: worst-case regret bounds](https://arxiv.org/pdf/1705.07041v3.pdf)
@@ -150,16 +159,6 @@ arXiv 6 Jul 2020 \
 Studies an Optimistic verion of Proximal Policy Optimization (OPPO) is episodic linear MDPs. When specialized
 to tabular setting the regret bound is
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^{3/2}S^2A\sqrt{T})" title="\tilde{O}(H^{3/2}S^2A\sqrt{T})" />
-
-
-
-Andrea Zanette, Alessandro Lazaric, Mykel Kochenderfer, Emma Brunskill
-[Learning Near Optimal Policies with Low Inherent Bellman Error](https://arxiv.org/abs/2003.00153) ICML 2020\
-Studies finite horizon MDP with linear function approximation under mis-specification. With <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" /> indicating the inherent Bellman error of linear function class, the regret of the algorithm is <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(d\sqrt{H^3K}&plus;H^2\sqrt{d}\epsilon&space;K)" title="\tilde{O}(d\sqrt{H^3K}+H^2\sqrt{d}\epsilon K)" />.
-
-Andrea Zanette, David Brandfonbrener, Emma Brunskill, Matteo Pirotta, Alessandro Lazaric
-[Frequentist Regret Bounds for Randomized Least-Squares Value Iteration](http://proceedings.mlr.press/v108/zanette20a.html) AISTATS 2020\
-Shows that a randomized version of LSVI also enjoys a high-probability regret is bounded by <img src="https://latex.codecogs.com/gif.latex?\widetilde{O}(d^2H^2\sqrt{T})" title="\widetilde{O}(d^2H^2\sqrt{T})" />.
 
 Kamyar Azizzadenesheli, Alessandro Lazaric, Anima Anandkumar
 [Reinforcement Learning of POMDPs using Spectral Methods](http://proceedings.mlr.press/v49/azizzadenesheli16a.pdf) COLT 2016\
