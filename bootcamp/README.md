@@ -1,4 +1,4 @@
-# Bibliography on Regret Analysis of Tabular MDPs
+# Bibliography on Regret Analysis of MDPs
 
 Michael Kearns & Satinder Singh
 [Near-Optimal Reinforcement Learning in Polynomial Time](https://doi.org/10.1023/A:1017984413808)
