@@ -134,3 +134,34 @@ arXiv 6 Jul 2020 \
 Studies an Optimistic verion of Proximal Policy Optimization (OPPO) is episodic linear MDPs. When specialized
 to tabular setting the regret bound is
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^{3/2}S^2A\sqrt{T})" title="\tilde{O}(H^{3/2}S^2A\sqrt{T})" />
+
+Christoph Dann, Lihong Li, Wei Wei, Emma Brunskill
+[Policy Certificates: Towards Accountable Reinforcement Learning](http://proceedings.mlr.press/v97/dann19a.html) ICML 2019\
+Proposes a policy certificate notion which can unify PAC and regret bounds and proposes algorithms for tabular MDPs and MDPs with side-information. The tabular algorithm obtains minimax optimal PAC and regret bounds.
+
+Chi Jin, Zhuoran Yang, Zhaoran Wang, Michael I. Jordan
+[Provably Efficient Reinforcement Learning with Linear Function Approximation](https://arxiv.org/abs/1907.05388)
+arxiv 8 Aug 2019\
+Analyses and optimistic modification of LSVI with a regret bound of <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{d^3H^3T})" title="\tilde{O}(\sqrt{d^3H^3T})" />.
+
+Chen-Yu Wei, Mehdi Jafarnia-Jahromi, Haipeng Luo, Hiteshi Sharma, Rahul Jain
+[Model-free Reinforcement Learning in Infinite-horizon Average-reward Markov Decision Processes](https://arxiv.org/abs/1910.07072)
+arxiv 25 Feb 2020\
+Proposes two algorithms: Optimistic Q-learning for weakly communicating MDPs with regret <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\text{sp}(v^*)T^{2/3}(SA)^{1/3})" title="\tilde{O}(\text{sp}(v^*)T^{2/3}(SA)^{1/3})" /> and the optimistic OMD algorithm for ergodic MDPs with regret <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{t_{\text{mix}}\rho&space;AT})" title="\tilde{O}(\sqrt{t_{\text{mix}}\rho AT})" />.
+
+Andrea Zanette, Alessandro Lazaric, Mykel Kochenderfer, Emma Brunskill
+[Learning Near Optimal Policies with Low Inherent Bellman Error](https://arxiv.org/abs/2003.00153) ICML 2020\
+Studies finite horizon MDP with linear function approximation under mis-specification. With <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" /> indicating the inherent Bellman error of linear function class, the regret of the algorithm is <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(d\sqrt{H^3K}&plus;H^2\sqrt{d}\epsilon&space;K)" title="\tilde{O}(d\sqrt{H^3K}+H^2\sqrt{d}\epsilon K)" />.
+
+Andrea Zanette, David Brandfonbrener, Emma Brunskill, Matteo Pirotta, Alessandro Lazaric
+[Frequentist Regret Bounds for Randomized Least-Squares Value Iteration](http://proceedings.mlr.press/v108/zanette20a.html) AISTATS 2020\
+Shows that a randomized version of LSVI also enjoys a high-probability regret is bounded by <img src="https://latex.codecogs.com/gif.latex?\widetilde{O}(d^2H^2\sqrt{T})" title="\widetilde{O}(d^2H^2\sqrt{T})" />.
+
+Kamyar Azizzadenesheli, Alessandro Lazaric, Anima Anandkumar
+[Reinforcement Learning of POMDPs using Spectral Methods](http://proceedings.mlr.press/v49/azizzadenesheli16a.pdf) COLT 2016\
+Proposes an algorithm for POMDPs based on spectral decomposition methods. Under assumptions of ergodicity and identifiability shows a regret bound of <img src="https://latex.codecogs.com/gif.latex?\widetilde{O}(DX^{3/2}\sqrt{AY&space;RN})" title="\widetilde{O}(DX^{3/2}\sqrt{AY RN})" /> with X states, Y observations and R rewards.
+
+Sean R. Sinclair, Tian-Yu Wang, Gauri Jain, Siddhartha Banerjee, Christina Lee Yu
+[Adaptive Discretization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2007.00717.pdf) arxiv 1 July 2020\
+Proposes a model-free algorithm for metric state-action spaces with adaptive discretization and shows a regret bound of <img src="https://latex.codecogs.com/gif.latex?\widetilde{O}(H^{1&plus;\frac{1}{d&plus;1}}K^{1-\frac{1}{d_S&plus;1}})" title="\widetilde{O}(H^{1+\frac{1}{d+1}}K^{1-\frac{1}{d_S+1}})" /> where <img src="https://latex.codecogs.com/gif.latex?d" title="d" /> and <img src="https://latex.codecogs.com/gif.latex?d_S" title="d_S" /> are covering dimensions for state-action and state spaces.
+
