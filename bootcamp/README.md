@@ -71,6 +71,10 @@ Andrea Zanette, Emma Brunskill
 without Domain Knowledge using Value Function Bounds](http://proceedings.mlr.press/v97/zanette19a/zanette19a.pdf)
 ICML 2019
 
+Christoph Dann, Lihong Li, Wei Wei, Emma Brunskill
+[Policy Certificates: Towards Accountable Reinforcement Learning](http://proceedings.mlr.press/v97/dann19a.pdf) ICML 2019\
+Proposes a policy certificate notion which can unify PAC and regret bounds and proposes algorithms for tabular MDPs and MDPs with side-information. The tabular algorithm obtains minimax optimal PAC and regret bounds.
+
 Max Simchowitz, Kevin G. Jamieson
 [Non-Asymptotic Gap-Dependent Regret Bounds for
 Tabular MDPs](https://papers.nips.cc/paper/8399-non-asymptotic-gap-dependent-regret-bounds-for-tabular-mdps.pdf)
@@ -134,10 +138,6 @@ arXiv 6 Jul 2020 \
 Studies an Optimistic verion of Proximal Policy Optimization (OPPO) is episodic linear MDPs. When specialized
 to tabular setting the regret bound is
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^{3/2}S^2A\sqrt{T})" title="\tilde{O}(H^{3/2}S^2A\sqrt{T})" />
-
-Christoph Dann, Lihong Li, Wei Wei, Emma Brunskill
-[Policy Certificates: Towards Accountable Reinforcement Learning](http://proceedings.mlr.press/v97/dann19a.html) ICML 2019\
-Proposes a policy certificate notion which can unify PAC and regret bounds and proposes algorithms for tabular MDPs and MDPs with side-information. The tabular algorithm obtains minimax optimal PAC and regret bounds.
 
 Chi Jin, Zhuoran Yang, Zhaoran Wang, Michael I. Jordan
 [Provably Efficient Reinforcement Learning with Linear Function Approximation](https://arxiv.org/abs/1907.05388)
