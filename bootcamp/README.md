@@ -95,8 +95,9 @@ Daniel Russo
 Randomized Value Functions](https://papers.nips.cc/paper/9587-worst-case-regret-bounds-for-exploration-via-randomized-value-functions.pdf)
 NeurIPS 2019 \
 Worst-case regret analysis of Randomized Least Squares Value Iteration (RLSVI) yields a regret bound of
-<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^3S\sqrt{SAT})" title="\tilde{O}(H^3S\sqrt{SAT})" />
-in the episodic setting
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^3S\sqrt{SAK})" title="\tilde{O}(H^3S\sqrt{SAK})" />
+in the episodic setting where
+is the number of episodes.
 
 Yonathan Efroni, Nadav Merlis, Mohammad Ghavamzadeh, Shie Mannor
 [Tight Regret Bounds for Model-Based Reinforcement
