@@ -116,7 +116,8 @@ in the non-episodic setting
 Chi Jin, Zhuoran Yang, Zhaoran Wang, Michael I. Jordan
 [Provably Efficient Reinforcement Learning with Linear Function Approximation](http://proceedings.mlr.press/v125/jin20a/jin20a.pdf)
 COLT 2020\
-Analyses and optimistic modification of LSVI with a regret bound of <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{d^3H^3T})" title="\tilde{O}(\sqrt{d^3H^3T})" />.
+Analyses and optimistic modification of LSVI with a regret bound of <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(\sqrt{d^3H^3T})" title="\tilde{O}(\sqrt{d^3H^3T})" /> in linear MDP with feature space of dimension
+<img src="https://latex.codecogs.com/gif.latex?d" title="d" />.
 
 
 Shipra Agrawal, Randy Jia
