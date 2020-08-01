@@ -163,3 +163,7 @@ arXiv 6 Jul 2020 \
 Studies an Optimistic verion of Proximal Policy Optimization (OPPO) is episodic linear MDPs. When specialized
 to tabular setting the regret bound is
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^{3/2}S^2A\sqrt{T})" title="\tilde{O}(H^{3/2}S^2A\sqrt{T})" />
+
+Chen-Yu Wei, Mehdi Jafarnia-Jahromi, Haipeng Luo, Rahul Jain
+[Learning Infinite-horizon Average-reward MDPs with Linear Function Approximation](https://arxiv.org/pdf/2007.11849.pdf)
+arXiv 23 Jul 2020
