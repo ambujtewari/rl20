@@ -2,7 +2,10 @@
 
 Michael Kearns & Satinder Singh
 [Near-Optimal Reinforcement Learning in Polynomial Time](https://doi.org/10.1023/A:1017984413808)
-MLJ 2002
+MLJ 2002 \
+A landmark paper. Doesn't exactly analyze regret but asks a very related question: how many time steps and computation are needed before the agent's average reward is within
+<img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />
+of the optimal reward. The algorithm E<sup>3</sup> (Explicit Explore or Exploit) is proposed and shown to have polynomial sample and computational complexity.
 ____
 Ronen I. Brafman, Moshe Tennenholtz
 [R-MAX - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning](http://www.jmlr.org/papers/volume3/brafman02a/brafman02a.pdf)
