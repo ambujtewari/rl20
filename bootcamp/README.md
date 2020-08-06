@@ -3,7 +3,7 @@
 Michael Kearns & Satinder Singh
 [Near-Optimal Reinforcement Learning in Polynomial Time](https://doi.org/10.1023/A:1017984413808)
 MLJ 2002 \
-A landmark paper. Doesn't exactly analyze regret but asks a very related question: how many time steps and computation are needed before the agent's average reward, with high probability, is within
+A landmark paper. Considers unichain MDPs but doesn't exactly analyze regret. Instead asks a very related question: how many time steps and computation are needed before the agent's average reward, with high probability, is within
 <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />
 of the optimal reward among all policies with 
 <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />-return
@@ -15,7 +15,9 @@ The algorithm E<sup>3</sup> (Explicit Explore or Exploit) is proposed and shown 
 <img src="https://latex.codecogs.com/gif.latex?\delta" title="\delta" />,
 and in
 <img src="https://latex.codecogs.com/gif.latex?T" title="T" />)
-sample and computational complexity. 
+sample and computational complexity. E<sup>3</sup> is a model-based algorithm since it builds a partial model of the MDP which is good for the set of <i>known</i> states (i.e., a state visited enough times). The algorithm starts off by engaging in <i>balanced wandering</i>, i.e., taking actions that have been tried the least number of times. When the algorithm reaches a known state, it performs two offline computations on the partial model: an attempted exploitation where the algorithm tries to find a high return policy based on the partial model. If attempted exploitation fails, then the algorithm finds an exploration policy designed to leave the set of known states with non-trivial probability. The analysis hinges on two key lemma. The <i>simulation lemma</i> guarantees that the
+<img src="https://latex.codecogs.com/gif.latex?T" title="T" />-step
+return of a policy in the actual model restricted to known states and the partial model are close. The <i>explore or exploit lemma</i> guarantees that the algorithm will either find a way to obtain near optimal returns using only the known states or it will find a way to quickly exit the set of known states.
 ____
 Ronen I. Brafman, Moshe Tennenholtz
 [R-MAX - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning](http://www.jmlr.org/papers/volume3/brafman02a/brafman02a.pdf)
