@@ -8,16 +8,17 @@ A landmark paper. Considers unichain MDPs but doesn't exactly analyze regret. In
 of the optimal reward among all policies with 
 <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />-return
 mixing time bounded by
-<img src="https://latex.codecogs.com/gif.latex?T" title="T" />.
+<img src="https://latex.codecogs.com/gif.latex?T" title="T" />?
 The algorithm E<sup>3</sup> (Explicit Explore or Exploit) is proposed and shown to have polynomial
 (in number of states and actions, in
 <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />,
 <img src="https://latex.codecogs.com/gif.latex?\delta" title="\delta" />,
 and in
 <img src="https://latex.codecogs.com/gif.latex?T" title="T" />)
-sample and computational complexity. E<sup>3</sup> is a model-based algorithm since it builds a partial model of the MDP which is good for the set of <i>known</i> states (i.e., a state visited enough times). The algorithm starts off by engaging in <i>balanced wandering</i>, i.e., taking actions that have been tried the least number of times. When the algorithm reaches a known state, it performs two offline computations on the partial model: an attempted exploitation where the algorithm tries to find a high return policy based on the partial model. If attempted exploitation fails, then the algorithm finds an exploration policy designed to leave the set of known states with non-trivial probability. The analysis hinges on two key lemma. The <i>simulation lemma</i> guarantees that the
+sample and computational complexity. E<sup>3</sup> is a model-based algorithm since it builds a <i>partial</i> model of the MDP which is good for the set of <i>known</i> states (i.e., a state visited enough times). The algorithm starts off by engaging in <i>balanced wandering</i>, i.e., taking actions that have been tried the least number of times. When the algorithm reaches a known state, it performs two offline computations on the partial model: an attempted exploitation where the algorithm tries to find a high return policy based on the partial model. If attempted exploitation fails, then the algorithm finds an exploration policy designed to leave the set of known states with non-trivial probability. The analysis hinges on two key lemmas. The <i>simulation lemma</i> guarantees that the
 <img src="https://latex.codecogs.com/gif.latex?T" title="T" />-step
 return of a policy in the actual model restricted to known states and the partial model are close. The <i>explore or exploit lemma</i> guarantees that the algorithm will either find a way to obtain near optimal returns using only the known states or it will find a way to quickly exit the set of known states.
+The paper leaves practical implementation, model-free algorithms, partial observability, and function approximation as challenges for future work.
 ____
 Ronen I. Brafman, Moshe Tennenholtz
 [R-MAX - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning](http://www.jmlr.org/papers/volume3/brafman02a/brafman02a.pdf)
