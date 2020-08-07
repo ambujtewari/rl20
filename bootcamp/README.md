@@ -1,6 +1,10 @@
 # Annotated Bibliography on Regret Analysis of Markov Decision Processes (MDPs)
 
-Michael Kearns & Satinder Singh
+Apostolos N. Burnetas, Michael N. Katehakis
+[Optimal Adaptive Policies for Markov Decision Processes](https://www.jstor.org/stable/3690147)
+Math of OR 1997
+____
+Michael Kearns, Satinder Singh
 [Near-Optimal Reinforcement Learning in Polynomial Time](https://doi.org/10.1023/A:1017984413808)
 MLJ 2002 \
 A landmark paper that gave the first near-optimal polynomial time and sample complexity algorithm for learning
