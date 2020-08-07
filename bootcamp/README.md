@@ -3,7 +3,7 @@
 Apostolos N. Burnetas, Michael N. Katehakis
 [Optimal Adaptive Policies for Markov Decision Processes](https://www.jstor.org/stable/3690147)
 Math of OR 1997 \
-For the class of completely ergodic (aka irreducible) MDPs, logarithmic upper and lower bounds on regret are provided. These bounds are <i>instance dependent</i> in the sense that the constants involved depend on the MDP. Algorithm is based on optimism: action selection is based on indices that aere inflations of the right hand side of average reward optimality equations.
+For the class of completely ergodic (aka irreducible) MDPs, logarithmic upper and lower bounds on regret are provided. These bounds are <i>instance dependent</i> in the sense that the constants involved depend on the MDP. Algorithm is based on optimism: action selection is based on indices that are inflations of the right hand side of average reward optimality equations.
 ____
 Michael Kearns, Satinder Singh
 [Near-Optimal Reinforcement Learning in Polynomial Time](https://doi.org/10.1023/A:1017984413808)
