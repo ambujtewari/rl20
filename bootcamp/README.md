@@ -190,6 +190,10 @@ Gaussian Noise Augmented RL algorithm achieves regret bound of
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(SH\sqrt{SAT})" title="\tilde{O}(SH\sqrt{SAT})" />
 in episodic setting
 ____
+Gergely Neu, Ciara Pike-Burke
+[A Unifying View of Optimism in Episodic Reinforcement Learning](https://arxiv.org/pdf/2007.01891.pdf)
+arXiv 3 Jul 2020
+____
 Qi Cai, Zhuoran Yang, Chi Jin, Zhaoran Wang
 [Provably Efficient Exploration in Policy Optimization](https://arxiv.org/pdf/1912.05830.pdf)
 arXiv 6 Jul 2020 \
