@@ -166,6 +166,11 @@ Andrea Zanette, Alessandro Lazaric, Mykel Kochenderfer, Emma Brunskill
 [Learning Near Optimal Policies with Low Inherent Bellman Error](https://proceedings.icml.cc/static/paper_files/icml/2020/6299-Paper.pdf) ICML 2020\
 Studies finite horizon MDP with linear function approximation under mis-specification. With <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" /> indicating the inherent Bellman error of linear function class, the regret of the algorithm is <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(d\sqrt{H^3K}&plus;H^2\sqrt{d}\epsilon&space;K)" title="\tilde{O}(d\sqrt{H^3K}+H^2\sqrt{d}\epsilon K)" />.
 ____
+Yonathan Efroni, Shie Mannor, Matteo Pirotta
+[Exploration-Exploitation in Constrained MDPs](https://arxiv.org/pdf/2003.02189.pdf)
+arXiv 4 Mar 2020 \
+Regret analysis for constrained MDPs
+____
 Shipra Agrawal, Randy Jia
 [Posterior sampling for reinforcement learning: worst-case regret bounds](https://arxiv.org/pdf/1705.07041v3.pdf)
 arXiv 30 Mar 2020 \
@@ -195,3 +200,8 @@ ____
 Chen-Yu Wei, Mehdi Jafarnia-Jahromi, Haipeng Luo, Rahul Jain
 [Learning Infinite-horizon Average-reward MDPs with Linear Function Approximation](https://arxiv.org/pdf/2007.11849.pdf)
 arXiv 23 Jul 2020
+____
+Aria HasanzadeZonuzy, Dileep Kalathil, Srinivas Shakkottai
+[Learning with Safety Constraints: Sample Complexity of Reinforcement Learning for Constrained MDPs](https://arxiv.org/pdf/2008.00311.pdf)
+arXiv 1 Aug 2020 \
+PAC sample complexity analysis for constrained MDPs
