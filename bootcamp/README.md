@@ -9,7 +9,7 @@ Michael Kearns, Satinder Singh
 [Near-Optimal Reinforcement Learning in Polynomial Time](https://doi.org/10.1023/A:1017984413808)
 MLJ 2002 \
 A landmark paper that gave the first near-optimal polynomial time and sample complexity algorithm for learning
-in MDPs. Considers learning from a single long trajectory (i.e, no resets) in <i>unichain</i> MDPs (incidentally, it is
+in MDPs. Considers learning from a single long trajectory (i.e., no resets) in <i>unichain</i> MDPs (incidentally, it is
 [NP-hard](https://doi.org/10.1016/j.orl.2006.06.005)
 to determine if an MDP is unichain or not) but doesn't exactly analyze regret. Instead asks a very related question: how many time steps and computation are needed before the agent's average reward, with high probability, is within
 <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />
@@ -30,7 +30,8 @@ The paper leaves practical implementation, model-free algorithms, partial observ
 ____
 Ronen I. Brafman, Moshe Tennenholtz
 [R-MAX - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning](http://www.jmlr.org/papers/volume3/brafman02a/brafman02a.pdf)
-JMLR 2002
+JMLR 2002 \
+The authors begins by noting the E<sup>3</sup> does not use optimism under uncertainty principle and explicitly separates exploration from exploitation. They suggest that such a separation possibly does not work in adversarial settings and instead rely on implicit exploration: states that have not been visited enough are given the maximum possible reward R<sub>max</sub> (hence the name of the algorithm) in a fictitious MDP. Following an optimal policy in the fictitious MDP has an interesting and useful propery in the real MDP: it is always either optimal or it leads to efficient learning.
 ____
 Sham Kakade
 [On the Sample Complexity of
