@@ -100,6 +100,10 @@ A regret bound of
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(BS\sqrt{AT})" title="\tilde{O}(BS\sqrt{AT})" />
 is established
 ____
+Christoph Dann, Tor Lattimore, Emma Brunskill
+[Unifying PAC and Regret: Uniform PAC Bounds for Episodic Reinforcement Learning](http://papers.nips.cc/paper/7154-unifying-pac-and-regret-uniform-pac-bounds-for-episodic-reinforcement-learning.pdf)
+NIPS 2017
+____
 Chi Jin, Zeyuan Allen-Zhu, Sebastien Bubeck, Michael I. Jordan
 [Is Q-learning Provably Efficient?](https://papers.nips.cc/paper/7735-is-q-learning-provably-efficient.pdf)
 NeurIPS 2018 \
