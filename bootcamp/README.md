@@ -39,7 +39,10 @@ ____
 Sham Kakade
 [On the Sample Complexity of
 Reinforcement Learning](https://homes.cs.washington.edu/~sham/papers/thesis/sham_thesis.pdf)
-PhD Thesis 2003
+PhD Thesis 2003 \
+Part 3 of this influential PhD thesis defines and studies the <i>sample complexity of exploration</i>. The definition is self-referential in the sense that the learning algorithm itself is considered as a non-stationary policy. As such it has a expected future return, or value, at any state it visits. One can ask whether this value is more than
+<img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />
+worse compared to the value of the optimal policy in that state. The total number of time steps where this happens is defined as the sample complexity of exploration.
 ____
 Peter Auer, Ronald Ortner
 [Logarithmic Online Regret Bounds for Undiscounted Reinforcement Learning](https://papers.nips.cc/paper/3052-logarithmic-online-regret-bounds-for-undiscounted-reinforcement-learning.pdf)
