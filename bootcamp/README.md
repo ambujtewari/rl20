@@ -42,7 +42,9 @@ Reinforcement Learning](https://homes.cs.washington.edu/~sham/papers/thesis/sham
 PhD Thesis 2003 \
 Part 3 of this influential PhD thesis defines and studies the <i>sample complexity of exploration</i>. The definition is self-referential in the sense that the learning algorithm itself is considered as a non-stationary policy. As such it has a expected future return, or value, at any state it visits. One can ask whether this value is more than
 <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />
-worse compared to the value of the optimal policy in that state. The total number of time steps where this happens is defined as the sample complexity of exploration.
+worse compared to the value of the optimal policy in that state. The total number of time steps where this happens is defined as the sample complexity of exploration. This sample complexity definition directly led to the later definition of <i>PAC-MDP algorithms</i> where the sample complexity has to be polynomial in relevant aspects of the input (and efficient PAC-MDP if the algorithm is also computationally efficient). For example, see the Strehl, Li, Littman (2009) paper below. In Chapter 8 of this thesis, upper and lower bounds on the sample complexity of exploration are provided. Upper bounds are proves using the R-MAX algorithm of Brafman and Tennenholtz (2002) mentioned above. The lower bounds do not match the upper bounds, an issue related to the question of whether an accurate model needs to be built in order to guarantee optimal sample complexity.
+
+Note that PAC-MDP notion is quite different from regret minimization: a sublinear regret algorithm need not be PAC-MDP and a PAC-MDP algorithm can have linear regret (see Section 6.3.2 of [this article](https://dx.doi.org/10.1007/978-3-642-27645-3_6) for an interesting discussion)
 ____
 Peter Auer, Ronald Ortner
 [Logarithmic Online Regret Bounds for Undiscounted Reinforcement Learning](https://papers.nips.cc/paper/3052-logarithmic-online-regret-bounds-for-undiscounted-reinforcement-learning.pdf)
