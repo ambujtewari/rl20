@@ -11,7 +11,7 @@ MLJ 2002 \
 A landmark paper that gave the first near-optimal polynomial time and sample complexity algorithm for learning
 in MDPs. Considers learning from a single long trajectory (i.e., no resets) in <i>unichain</i> MDPs (incidentally, it is
 [NP-hard](https://doi.org/10.1016/j.orl.2006.06.005)
-to determine if an MDP is unichain or not) but doesn't exactly analyze regret. Instead asks a very related question: how many time steps and computation are needed before the agent's average reward, with high probability, is within
+to determine if an MDP is unichain or not) but doesn't exactly analyze regret. Instead asks a very related question (in the undiscounted case): how many time steps and computation are needed before the agent's average reward, with high probability, is within
 <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />
 of the optimal reward among all policies with 
 <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" />-return
