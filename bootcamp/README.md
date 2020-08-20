@@ -63,9 +63,9 @@ Alexander L. Strehl, Lihong Li, Michael L. Littman
 [Reinforcement Learning in Finite MDPs: PAC Analysis](http://www.jmlr.org/papers/volume10/strehl09a/strehl09a.pdf)
 JMLR 2009 \
 A nice summary of PAC-MDP results up to 2009. Uses the sample complexity definition of Kakade (2003) to define PAC-MDP learning algorithms. Two sets of mutually incomparable sample complexity bounds are given. The upper bounds are
-
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(S^2&space;A/(\epsilon^3(1-\gamma)^6))" title="\tilde{O}(S^2 A/(\epsilon^3(1-\gamma)^6))" />
 for R-MAX, and
-
+<img src="https://latex.codecogs.com/gif.latex?\tilde{O}(S&space;A/(\epsilon^4(1-\gamma)^8))" title="\tilde{O}(S A/(\epsilon^4(1-\gamma)^8))" />
 for [Delayed Q-learning](https://doi.org/10.1145/1143844.1143955)
 ____
 Thomas Jaksch, Ronald Ortner, Peter Auer
