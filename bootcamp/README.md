@@ -31,7 +31,7 @@ ____
 Ronen I. Brafman, Moshe Tennenholtz
 [R-MAX - A General Polynomial Time Algorithm for Near-Optimal Reinforcement Learning](http://www.jmlr.org/papers/volume3/brafman02a/brafman02a.pdf)
 JMLR 2002 \
-The authors begins by noting the E<sup>3</sup> does not use optimism in the face of uncertainty principle and explicitly separates exploration from exploitation. The OFU principle goes back at least to the <a href="https://doi.org/10.1613/jair.301">1996 survey</a> by Kaelbling, Littman and Moore where it is discussed in Section 2.2 titled "Ad-hoc techniques". Also see <a href="http://www.incompleteideas.net/book/first/ebook/node21.html">Section 2.7</a> titled "Optimistic Initial Values" in Sutton and Barto's book. This paper suggests that such a separation possibly does not work in adversarial settings and instead rely on implicit exploration driven by the OFU principle: states that have not been visited enough are given the maximum possible reward R<sub>max</sub> (hence the name of the algorithm) in a fictitious MDP. Following an optimal policy in the fictitious MDP has an interesting and useful propery in the real MDP: it is always either optimal or it leads to efficient learning. Unlike E<sup>3</sup>, R-MAX works in a more general setting than that of MDPs, namely that of two-player fixed-sum stochastic games. It guarantees near-optimal (in the "safety" or probabilistic maximin sense with respect to adversary's strategy) return in time polynomial in number of states and actions, in
+The authors begins by noting the E<sup>3</sup> does not use optimism in the face of uncertainty principle and explicitly separates exploration from exploitation. The OFU principle goes back at least to the [1996 survey](https://doi.org/10.1613/jair.301) by Kaelbling, Littman and Moore where it is discussed in Section 2.2 titled "Ad-hoc techniques". [Section 2.7](http://www.incompleteideas.net/book/first/ebook/node21.html) titled "Optimistic Initial Values" in Sutton and Barto's book. This paper suggests that such a separation possibly does not work in adversarial settings and instead rely on implicit exploration driven by the OFU principle: states that have not been visited enough are given the maximum possible reward R<sub>max</sub> (hence the name of the algorithm) in a fictitious MDP. Following an optimal policy in the fictitious MDP has an interesting and useful propery in the real MDP: it is always either optimal or it leads to efficient learning. Unlike E<sup>3</sup>, R-MAX works in a more general setting than that of MDPs, namely that of two-player fixed-sum stochastic games. It guarantees near-optimal (in the "safety" or probabilistic maximin sense with respect to adversary's strategy) return in time polynomial in number of states and actions, in
 <img src="https://latex.codecogs.com/gif.latex?1/\epsilon" title="1/\epsilon" />,
 <img src="https://latex.codecogs.com/gif.latex?1/\delta" title="1/\delta" />,
 and in the mixing time. Note that, in repeated games, the mixing time is 1 and the algorithm simplifies considerably since there is no need to learn transition probabilities.
@@ -61,7 +61,12 @@ is the smallest (non-zero) suboptimality gap among policies. The paper conjectur
 ____
 Alexander L. Strehl, Lihong Li, Michael L. Littman
 [Reinforcement Learning in Finite MDPs: PAC Analysis](http://www.jmlr.org/papers/volume10/strehl09a/strehl09a.pdf)
-JMLR 2009
+JMLR 2009 \
+A nice summary of PAC-MDP results up to 2009. Uses the sample complexity definition of Kakade (2003) to define PAC-MDP learning algorithms. Two sets of mutually incomparable sample complexity bounds are given. The upper bounds are
+
+for R-MAX, and
+
+for [Delayed Q-learning](https://doi.org/10.1145/1143844.1143955)
 ____
 Thomas Jaksch, Ronald Ortner, Peter Auer
 [Near-optimal Regret Bounds for Reinforcement Learning](http://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)
