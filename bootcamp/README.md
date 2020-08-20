@@ -53,9 +53,11 @@ Considers unichain MDPs in the undiscounted setting and provides logarithmic (in
 <img src="https://latex.codecogs.com/gif.latex?\frac{S^5AT_M\kappa_M^2}{\Delta^2}\log&space;T" title="\frac{S^5AT_M\kappa_M^2}{\Delta^2}\log T" />
 where
 <img src="https://latex.codecogs.com/gif.latex?T_M" title="T_M" />
-is the worst case mean first passage time (to reach one state from another) over all pairs of states and over all policies, and
+is the worst case mean first passage time (to reach one state from another) over all pairs of states and over all policies,
 <img src="https://latex.codecogs.com/gif.latex?\kappa_M" title="\kappa_M" />
-is a sensitivity parameter defined as the ratio between the mean passage time to another state and the return time to a given state. The paper conjectures that a modified version of UCRL will enjoy regret bounds in communicating MDPs and it therefore anticipates the UCRL2 algorithm.
+is a sensitivity parameter defined as the ratio between the mean passage time to another state and the return time to a given state, and
+<img src="https://latex.codecogs.com/gif.latex?\Delta" title="\Delta" />
+is the smallest (non-zero) suboptimality gap among policies. The paper conjectures that a modified version of UCRL will enjoy regret bounds in communicating MDPs and it therefore anticipates the UCRL2 algorithm.
 ____
 Alexander L. Strehl, Lihong Li, Michael L. Littman
 [Reinforcement Learning in Finite MDPs: PAC Analysis](http://www.jmlr.org/papers/volume10/strehl09a/strehl09a.pdf)
