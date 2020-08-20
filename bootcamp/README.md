@@ -48,7 +48,10 @@ Note that PAC-MDP notion is quite different from regret minimization: a sublinea
 ____
 Peter Auer, Ronald Ortner
 [Logarithmic Online Regret Bounds for Undiscounted Reinforcement Learning](https://papers.nips.cc/paper/3052-logarithmic-online-regret-bounds-for-undiscounted-reinforcement-learning.pdf)
-NIPS 2006
+NIPS 2006 \
+Considers unichain MDPs in the undiscounted setting and provides logarithmic (in time) regret bounds for an OFU algorithm called UCRL. Note the evolution of ideas from E<sup>3</sup> to R-MAX to UCRL. E<sup>3</sup> has explicit known/unknown state distinction and explicit explore/exploit distinction. R-MAX has implicit exploration but still retains the explicit known/unknown state distinction. UCRL eliminates the explicit known/unknown state distinction and instead uses implicit exploration driven by high confidence bounds on the transition and reward functions. The leading term in the regret bound scales as
+<img src="https://latex.codecogs.com/gif.latex?\frac{S^5&space;A&space;T_M&space;\kappa_M^2}{\Delta^2}&space;T" title="\frac{S^5 A T_M \kappa_M^2}{\Delta^2} T" />
+where 
 ____
 Alexander L. Strehl, Lihong Li, Michael L. Littman
 [Reinforcement Learning in Finite MDPs: PAC Analysis](http://www.jmlr.org/papers/volume10/strehl09a/strehl09a.pdf)
