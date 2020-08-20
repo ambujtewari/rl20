@@ -51,7 +51,11 @@ Peter Auer, Ronald Ortner
 NIPS 2006 \
 Considers unichain MDPs in the undiscounted setting and provides logarithmic (in time) regret bounds for an OFU algorithm called UCRL. Note the evolution of ideas from E<sup>3</sup> to R-MAX to UCRL. E<sup>3</sup> has explicit known/unknown state distinction and explicit explore/exploit distinction. R-MAX has implicit exploration but still retains the explicit known/unknown state distinction. UCRL eliminates the explicit known/unknown state distinction and instead uses implicit exploration driven by high confidence bounds on the transition and reward functions. The leading term in the regret bound scales as
 <img src="https://latex.codecogs.com/gif.latex?\frac{S^5&space;A&space;T_M&space;\kappa_M^2}{\Delta^2}&space;T" title="\frac{S^5 A T_M \kappa_M^2}{\Delta^2} T" />
-where 
+where
+<img src="https://latex.codecogs.com/gif.latex?T_M" title="T_M" />
+is the worst case mean first passage time (to reach one state from another) over all pairs of states and over all policies, and
+<img src="https://latex.codecogs.com/gif.latex?\kappa_M" title="\kappa_M" />
+is a sentivity parameter defined as the ratio between the mean passage time to another state and the return time to a given state. The paper conjectures that a modified version of UCRL will enjoy regret bounds in communicating MDPs and it therefore anticipates the UCRL2 algorithm.
 ____
 Alexander L. Strehl, Lihong Li, Michael L. Littman
 [Reinforcement Learning in Finite MDPs: PAC Analysis](http://www.jmlr.org/papers/volume10/strehl09a/strehl09a.pdf)
