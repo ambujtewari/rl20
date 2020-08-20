@@ -224,13 +224,16 @@ to tabular setting the regret bound is
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^{3/2}S^2A\sqrt{T})" title="\tilde{O}(H^{3/2}S^2A\sqrt{T})" />
 ____
 Melrose Roderick, Vaishnavh Nagarajan, J. Zico Kolter
-[Provably Safe PAC-MDP Exploration Using Analogies
-](https://arxiv.org/pdf/2007.03574.pdf)
+[Provably Safe PAC-MDP Exploration Using Analogies](https://arxiv.org/pdf/2007.03574.pdf)
 arXiv 7 Jul 2020
 ____
 Chen-Yu Wei, Mehdi Jafarnia-Jahromi, Haipeng Luo, Rahul Jain
 [Learning Infinite-horizon Average-reward MDPs with Linear Function Approximation](https://arxiv.org/pdf/2007.11849.pdf)
 arXiv 23 Jul 2020
+____
+Pierre Ménard, Omar Darwiche Domingues, Anders Jonsson, Emilie Kaufmann, Edouard Leurent, Michal Valko
+[Fast active learning for pure exploration in reinforcement learning](https://arxiv.org/pdf/2007.13442.pdf)
+arXiv 27 Jul 2020
 ____
 Aria HasanzadeZonuzy, Dileep Kalathil, Srinivas Shakkottai
 [Learning with Safety Constraints: Sample Complexity of Reinforcement Learning for Constrained MDPs](https://arxiv.org/pdf/2008.00311.pdf)
