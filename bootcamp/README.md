@@ -66,7 +66,12 @@ A nice summary of PAC-MDP results up to 2009. Uses the sample complexity definit
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(S^2&space;A/(\epsilon^3(1-\gamma)^6))" title="\tilde{O}(S^2 A/(\epsilon^3(1-\gamma)^6))" />
 for R-MAX, and
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(S&space;A/(\epsilon^4(1-\gamma)^8))" title="\tilde{O}(S A/(\epsilon^4(1-\gamma)^8))" />
-for [Delayed Q-learning](https://doi.org/10.1145/1143844.1143955)
+for [Delayed Q-learning](https://doi.org/10.1145/1143844.1143955).
+The lower bounds are 
+<img src="https://latex.codecogs.com/gif.latex?\Omega\left(\frac{SA}{\epsilon(1-\gamma)^2}\ln&space;\frac{1}{\delta}\right)" title="\Omega\left(\frac{SA}{\epsilon(1-\gamma)^2}\ln \frac{1}{\delta}\right)" />
+and
+<img src="https://latex.codecogs.com/gif.latex?\Omega\left(\frac{SA}{\epsilon^2}\ln&space;\frac{S}{\delta}\right)" title="\Omega\left(\frac{SA}{\epsilon^2}\ln \frac{S}{\delta}\right)" />.
+A nice feature of upper bounds is that they can potentially be much smaller than the worst case if a good <i>admissible heuristic</i> is provided (a function supplied in advance that dominates the optimal value function).
 ____
 Thomas Jaksch, Ronald Ortner, Peter Auer
 [Near-optimal Regret Bounds for Reinforcement Learning](http://www.jmlr.org/papers/volume11/jaksch10a/jaksch10a.pdf)
