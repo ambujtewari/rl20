@@ -1,5 +1,10 @@
 # Annotated Bibliography on Regret Analysis of Markov Decision Processes (MDPs)
 
+Claude-Nicolas Fiechter
+[Efficient reinforcement learning](https://doi.org/10.1145/180139.181019)
+COLT 1994 \
+One of the earliest paper to apply PAC style analysis to reinforcement learning. Discounted setting with resets is considered.
+
 Apostolos N. Burnetas, Michael N. Katehakis
 [Optimal Adaptive Policies for Markov Decision Processes](https://www.jstor.org/stable/3690147)
 Math of OR 1997 \
