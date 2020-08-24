@@ -249,3 +249,8 @@ Aria HasanzadeZonuzy, Dileep Kalathil, Srinivas Shakkottai
 [Learning with Safety Constraints: Sample Complexity of Reinforcement Learning for Constrained MDPs](https://arxiv.org/pdf/2008.00311.pdf)
 arXiv 1 Aug 2020 \
 PAC sample complexity analysis for constrained MDPs
+____
+Andrea Zanette, Alessandro Lazaric, Mykel J. Kochenderfer, Emma Brunskill
+[Provably Efficient Reward-Agnostic Navigation with Linear Value Iteration](https://arxiv.org/pdf/2008.07737.pdf)
+arXiv 18 Aug 2020 \
+'we show how under a more standard notion of low inherent Bellman error, typically employed in leastsquare value iteration-style algorithms, we can provide strong PAC guarantees on learning a near optimal value function provided that the linear space is sufficiently “explorable”'
