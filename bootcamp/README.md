@@ -262,6 +262,14 @@ arXiv 18 Aug 2020 \
 
 ## POMDPs
 
+Zhaohan Daniel Guo Shayan Doroudi Emma Brunskill
+[A PAC RL Algorithm for Episodic POMDPs](http://proceedings.mlr.press/v51/guo16b.pdf)
+AISTATS 2016
+____
+Kamyar Azizzadenesheli, Alessandro Lazaric, Animashree Anandkumar
+[Reinforcement Learning of POMDPs using Spectral Methods](http://proceedings.mlr.press/v49/azizzadenesheli16a.pdf)
+COLT 2016
+____
 Chi Jin, Sham Kakade, Akshay Krishnamurthy, Qinghua Liu
 [Sample-Efficient Reinforcement Learning of Undercomplete POMDPs](https://arxiv.org/pdf/2006.12484.pdf)
 arXiv 22 Jun 2020 \
