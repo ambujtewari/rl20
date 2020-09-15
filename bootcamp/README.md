@@ -259,3 +259,13 @@ Andrea Zanette, Alessandro Lazaric, Mykel J. Kochenderfer, Emma Brunskill
 [Provably Efficient Reward-Agnostic Navigation with Linear Value Iteration](https://arxiv.org/pdf/2008.07737.pdf)
 arXiv 18 Aug 2020 \
 'we show how under a more standard notion of low inherent Bellman error, typically employed in leastsquare value iteration-style algorithms, we can provide strong PAC guarantees on learning a near optimal value function provided that the linear space is sufficiently “explorable”'
+
+## POMDPs
+
+Chi Jin, Sham Kakade, Akshay Krishnamurthy, Qinghua Liu
+[Sample-Efficient Reinforcement Learning of Undercomplete POMDPs](https://arxiv.org/pdf/2006.12484.pdf)
+arXiv 22 Jun 2020 \
+'This work shows that these hardness barriers do not
+preclude efficient reinforcement learning for rich and interesting subclasses of POMDPs. In particular, we
+present a sample-efficient algorithm, OOM-UCB, for episodic finite undercomplete POMDPs, where the
+number of observations is larger than the number of latent states and where exploration is essential for learning, thus distinguishing our results from prior works. OOM-UCB achieves an optimal sample complexity of O(1/ε<sup>2</sup>) for finding an ε-optimal policy, along with being polynomial in all other relevant quantities.'
