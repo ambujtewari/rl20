@@ -292,7 +292,7 @@ Marc Abeille, Alessandro Lazaric
 [Improved Regret Bounds for Thompson Sampling in Linear Quadratic Control Problems](http://proceedings.mlr.press/v80/abeille18a/abeille18a.pdf)
 ICML 2018
 ____
-Dhruv Malik, Ashwin Pananjady, Kush Bhatia, Koulik Khamaru, Peter L. Bartlett†, Martin J. Wainwright
+Dhruv Malik, Ashwin Pananjady, Kush Bhatia, Koulik Khamaru, Peter L. Bartlett, Martin J. Wainwright
 [Derivative-Free Methods for Policy Optimization: Guarantees for
 Linear Quadratic Systems](http://proceedings.mlr.press/v89/malik19a/malik19a.pdf)
 AISTATS 2019
