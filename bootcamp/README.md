@@ -1,4 +1,4 @@
-# Annotated Bibliography on Regret Analysis of Markov Decision Processes (MDPs)
+# Annotated Bibliography on Regret Analysis of Markov Decision Processes (MDPs) and Related Models
 
 Claude-Nicolas Fiechter
 [Efficient reinforcement learning](https://doi.org/10.1145/180139.181019)
@@ -277,3 +277,14 @@ arXiv 22 Jun 2020 \
 preclude efficient reinforcement learning for rich and interesting subclasses of POMDPs. In particular, we
 present a sample-efficient algorithm, OOM-UCB, for episodic finite undercomplete POMDPs, where the
 number of observations is larger than the number of latent states and where exploration is essential for learning, thus distinguishing our results from prior works. OOM-UCB achieves an optimal sample complexity of O(1/ε<sup>2</sup>) for finding an ε-optimal policy, along with being polynomial in all other relevant quantities.'
+
+## Linear Quadratic Systems
+
+Claude-Nicolas Fiechter
+[PAC adaptive control of linear systems](https://doi.org/10.1145/267460.267481)
+COLT 1997
+
+Sahin Lale, Kamyar Azizzadenesheli, Babak Hassibi, Anima Anandkumar
+[Adaptive Control and Regret Minimization in Linear Quadratic Gaussian (LQG) Setting](https://arxiv.org/pdf/2003.05999.pdf)
+arXiv 24 Jun 2020
+
