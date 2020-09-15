@@ -288,6 +288,14 @@ Yasin Abbasi-Yadkori, Csaba Szepesvari
 [Regret Bounds for the Adaptive Control of Linear Quadratic Systems](http://proceedings.mlr.press/v19/abbasi-yadkori11a/abbasi-yadkori11a.pdf)
 COLT 2011
 ____
+Marc Abeille, Alessandro Lazaric
+[Improved Regret Bounds for Thompson Sampling in Linear Quadratic Control Problems](http://proceedings.mlr.press/v80/abeille18a/abeille18a.pdf)
+ICML 2018
+____
+Alon Cohen, Tomer Koren, Yishay Mansour
+[Learning Linear-Quadratic Regulators Efficiently with only √T Regret](http://proceedings.mlr.press/v97/cohen19b/cohen19b.pdf)
+ICML 2019
+____
 Sahin Lale, Kamyar Azizzadenesheli, Babak Hassibi, Anima Anandkumar
 [Adaptive Control and Regret Minimization in Linear Quadratic Gaussian (LQG) Setting](https://arxiv.org/pdf/2003.05999.pdf)
 arXiv 24 Jun 2020
