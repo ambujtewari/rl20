@@ -259,6 +259,14 @@ Andrea Zanette, Alessandro Lazaric, Mykel J. Kochenderfer, Emma Brunskill
 [Provably Efficient Reward-Agnostic Navigation with Linear Value Iteration](https://arxiv.org/pdf/2008.07737.pdf)
 arXiv 18 Aug 2020 \
 'we show how under a more standard notion of low inherent Bellman error, typically employed in leastsquare value iteration-style algorithms, we can provide strong PAC guarantees on learning a near optimal value function provided that the linear space is sufficiently “explorable”'
+____
+Zihan Zhang, Xiangyang Ji, Simon S. Du
+[Is Reinforcement Learning More Difficult Than Bandits? A Near-optimal Algorithm Escaping the Curse of Horizon](https://arxiv.org/pdf/2009.13503.pdf)
+arXiv 28 Sep 2020 \
+'Episodic reinforcement learning and contextual bandits are two widely studied sequential
+decision-making problems. Episodic reinforcement learning generalizes contextual bandits and
+is often perceived to be more difficult due to long planning horizon and unknown state-dependent
+transitions. The current paper shows that the long planning horizon and the unknown statedependent transitions (at most) pose little additional difficulty on sample complexity.'
 
 ## POMDPs
 
