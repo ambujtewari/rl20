@@ -267,6 +267,11 @@ arXiv 28 Sep 2020 \
 decision-making problems. Episodic reinforcement learning generalizes contextual bandits and
 is often perceived to be more difficult due to long planning horizon and unknown state-dependent
 transitions. The current paper shows that the long planning horizon and the unknown statedependent transitions (at most) pose little additional difficulty on sample complexity.'
+____
+Priyank Agrawal, Jinglin Chen, Nan Jiang
+[Improved Worst-Case Regret Bounds for Randomized Least-Squares Value Iteration](https://arxiv.org/pdf/2010.12163.pdf)
+arXiv 23 Oct 2020 \
+'This paper studies regret minimization with randomized value functions in reinforcement learning. In tabular finite-horizon Markov Decision Processes, we introduce a clipping variant of one classical Thompson Sampling (TS)-like algorithm, randomized least-squares value iteration (RLSVI). We analyze the algorithm using a novel intertwined regret decomposition. Our <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(H^2&space;S&space;\sqrt{AT})" title="\tilde{O}(H^2 S \sqrt{AT})" /> high-probability worst-case regret bound improves the previous sharpest worst-case regret bounds for RLSVI and matches the existing state-of-the-art worst-case TS-based regret bounds.'
 
 ## POMDPs
 
