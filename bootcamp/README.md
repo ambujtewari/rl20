@@ -216,6 +216,32 @@ Andrea Zanette, Alessandro Lazaric, Mykel Kochenderfer, Emma Brunskill
 [Learning Near Optimal Policies with Low Inherent Bellman Error](https://proceedings.icml.cc/static/paper_files/icml/2020/6299-Paper.pdf) ICML 2020\
 Studies finite horizon MDP with linear function approximation under mis-specification. With <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" /> indicating the inherent Bellman error of linear function class, the regret of the algorithm is <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(d\sqrt{H^3K}&plus;H^2\sqrt{d}\epsilon&space;K)" title="\tilde{O}(d\sqrt{H^3K}+H^2\sqrt{d}\epsilon K)" />.
 ____
+Alex Ayoub, Zeyu Jia, Csaba Szepesvari, Mengdi Wang, Lin Yang
+[Model-Based Reinforcement Learning with Value-Targeted Regression](http://proceedings.mlr.press/v119/ayoub20a/ayoub20a.pdf) ICML 2020\
+'This paper studies model-based reinforcement learning (RL) for regret minimization. We focus on finite-horizon episodic RL where the transition model
+<img src="https://latex.codecogs.com/svg.image?P" title="P" />
+belongs to a known family of models
+<img src="https://latex.codecogs.com/svg.image?\mathcal{P}" title="\mathcal{P}" />
+, a special case of which is when models in
+<img src="https://latex.codecogs.com/svg.image?\mathcal{P}" title="\mathcal{P}" />
+take the form of linear mixtures:
+<img src="https://latex.codecogs.com/svg.image?P_\theta&space;=&space;\sum_{i=1}^d&space;\theta_i&space;P_i" title="P_\theta = \sum_{i=1}^d \theta_i P_i" />
+. We propose a model based RL algorithm that is based on the optimism principle: In each episode, the set of models that are ‘consistent’ with the data collected is constructed. The criterion of consistency is based on the total squared error that the model incurs on the task of predicting state values as determined by the last value estimate along the transitions. The next value function is then chosen by solving the optimistic planning problem with the constructed set of models. We derive a bound on the regret, which, in the special case of linear mixtures, takes the form
+<img src="https://latex.codecogs.com/svg.image?\tilde{O}(d\sqrt{H^3&space;T})" title="\tilde{O}(d\sqrt{H^3 T})" />
+where
+<img src="https://latex.codecogs.com/svg.image?H" title="H" />
+,
+<img src="https://latex.codecogs.com/svg.image?T" title="T" />
+and
+<img src="https://latex.codecogs.com/svg.image?d" title="d" />
+are the horizon, the total number of steps and the dimension of
+<img src="https://latex.codecogs.com/svg.image?\theta" title="\theta" />
+respectively. In particular, this regret bound is independent of the total number of states or actions, and is close to a lower bound
+<img src="https://latex.codecogs.com/svg.image?\Omega(\sqrt{HdT})" title="\Omega(\sqrt{HdT})" />
+. For a general model family
+<img src="https://latex.codecogs.com/svg.image?\mathcal{P}" title="\mathcal{P}" />
+, the regret bound is derived based on the Eluder dimension.'
+____
 Ruosong Wang, Russ R. Salakhutdinov, Lin Yang
 [Reinforcement Learning with General Value Function Approximation: Provably Efficient Approach via Bounded Eluder Dimension](https://proceedings.neurips.cc/paper/2020/file/440924c5948e05070663f88e69e8242b-Paper.pdf)
 NeurIPS 2020 \
