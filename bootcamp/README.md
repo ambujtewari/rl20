@@ -97,6 +97,19 @@ Posterior Sampling for Reinforcement Learning (PSRL) enjoys Bayesian regret boun
 <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(HS\sqrt{AT})" title="\tilde{O}(HS\sqrt{AT})" />
 in episodic setting.
 ____
+Ian Osband, Benjamin Van Roy
+[Model-based Reinforcement Learning and the Eluder Dimension](https://papers.nips.cc/paper/2014/file/1141938ba2c2b13f5505d7c424ebae5f-Paper.pdf)
+NIPS 2014 \
+'We consider the problem of learning to optimize an unknown Markov decision process (MDP). We show that, if the MDP can be parameterized within some known function class, we can obtain regret bounds that scale with the dimensionality, rather than cardinality, of the system. We characterize this dependence explicitly as 
+<img src="https://latex.codecogs.com/svg.image?\tilde{O}(\sqrt{d_K&space;d_E&space;T})" title="\tilde{O}(\sqrt{d_K d_E T})" />
+where 
+<img src="https://latex.codecogs.com/svg.image?T" title="T" />
+is time elapsed, 
+<img src="https://latex.codecogs.com/svg.image?d_K" title="d_K" />
+is the Kolmogorov dimension and 
+<img src="https://latex.codecogs.com/svg.image?d_E" title="d_E" />
+is the eluder dimension. These represent the first unified regret bounds for model-based reinforcement learning and provide state of the art guarantees in several important settings. Moreover, we present a simple and computationally efficient algorithm posterior sampling for reinforcement learning (PSRL) that satisfies these bounds.'
+____
 Kamyar Azizzadenesheli, Alessandro Lazaric, Anima Anandkumar
 [Reinforcement Learning of POMDPs using Spectral Methods](http://proceedings.mlr.press/v49/azizzadenesheli16a.pdf) COLT 2016\
 Proposes an algorithm for POMDPs based on spectral decomposition methods. Under assumptions of ergodicity and identifiability shows a regret bound of <img src="https://latex.codecogs.com/gif.latex?\widetilde{O}(DS^{3/2}\sqrt{AO&space;RT})" title="\widetilde{O}(DS^{3/2}\sqrt{AO RT})" /> with S states, O observations and R rewards.
