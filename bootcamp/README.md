@@ -324,6 +324,12 @@ decision-making problems. Episodic reinforcement learning generalizes contextual
 is often perceived to be more difficult due to long planning horizon and unknown state-dependent
 transitions. The current paper shows that the long planning horizon and the unknown statedependent transitions (at most) pose little additional difficulty on sample complexity.'
 ____
+Dylan J. Foster, Alexander Rakhlin, David Simchi-Levi, Yunzong Xu
+[Instance-Dependent Complexity of Contextual Bandits and Reinforcement Learning: A Disagreement-Based Perspective](https://arxiv.org/pdf/2010.03104.pdf)
+arXiv 7 Oct 2020\
+'In the classical multi-armed bandit problem, instance-dependent algorithms attain improved performance on "easy" problems with a gap between the best and second-best arm. Are similar guarantees possible for contextual bandits? While positive results are known for certain special cases, there is no general theory characterizing when and how instance-dependent regret bounds for contextual bandits can be achieved for rich, general classes of policies. We introduce a family of complexity measures that are both sufficient and necessary to obtain instance-dependent regret bounds. We then introduce new oracle-efficient algorithms which adapt to the gap whenever possible, while also attaining the minimax rate in the worst case. Finally, we provide structural results that tie together a number of complexity measures previously proposed throughout contextual bandits, reinforcement learning, and active learning and elucidate their role in determining the optimal instance-dependent regret. In a large-scale empirical evaluation, we find that our approach often gives superior results for challenging exploration problems.
+Turning our focus to reinforcement learning with function approximation, we develop new oracle-efficient algorithms for reinforcement learning with rich observations that obtain optimal gap-dependent sample complexity.'
+____
 Priyank Agrawal, Jinglin Chen, Nan Jiang
 [Improved Worst-Case Regret Bounds for Randomized Least-Squares Value Iteration](https://arxiv.org/pdf/2010.12163.pdf)
 arXiv 23 Oct 2020 \
