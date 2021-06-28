@@ -290,6 +290,19 @@ Haque Ishfaq, Qiwen Cui, Viet Nguyen, Alex Ayoub, Zhuoran Yang, Zhaoran Wang, Do
 [Randomized Exploration for Reinforcement Learning with General Value Function Approximation](https://arxiv.org/pdf/2106.07841.pdf)
 arXiv 15 Jun 2021 \
 'We propose a model-free reinforcement learning algorithm inspired by the popular randomized least squares value iteration (RLSVI) algorithm as well as the optimism principle. Unlike existing upper-confidence-bound (UCB) based approaches, which are often computationally intractable, our algorithm drives exploration by simply perturbing the training data with judiciously chosen i.i.d. scalar noises. To attain optimistic value function estimation without resorting to a UCB-style bonus, we introduce an optimistic reward sampling procedure. When the value functions can be represented by a function class <img src="https://latex.codecogs.com/svg.image?\mathcal{F}" title="\mathcal{F}" />, our algorithm achieves a worst-case regret bound of <img src="https://latex.codecogs.com/svg.image?\tilde{O}(poly(d_E&space;H\sqrt{T}))" title="\tilde{O}(poly(d_E H\sqrt{T}))" /> where <img src="https://latex.codecogs.com/svg.image?T" title="T" /> is the time elapsed, <img src="https://latex.codecogs.com/svg.image?H" title="H" /> is the planning horizon and <img src="https://latex.codecogs.com/svg.image?d_E" title="d_E" /> is the eluder dimension of <img src="https://latex.codecogs.com/svg.image?\mathcal{F}" title="\mathcal{F}" />. In the linear setting, our algorithm reduces to LSVI-PHE, a variant of RLSVI, that enjoys an <img src="https://latex.codecogs.com/svg.image?\tilde{O}(\sqrt{d^3&space;H^3&space;T})" title="\tilde{O}(\sqrt{d^3 H^3 T})" /> regret. We complement the theory with an empirical evaluation across known difficult exploration tasks.'
+____
+Yining Wang, Ruosong Wang, Simon Shaolei Du, Akshay Krishnamurthy
+[Optimism in Reinforcement Learning with Generalized Linear Function Approximation](https://openreview.net/pdf?id=CBmJwzneppz)
+ICLR 2021 \
+'We design a new provably efficient algorithm for episodic reinforcement learning with generalized linear function approximation. We analyze the algorithm under a new expressivity assumption that we call "optimistic closure," which is strictly weaker than assumptions from prior analyses for the linear setting. With optimistic closure, we prove that our algorithm enjoys a regret bound of
+<img src="https://latex.codecogs.com/svg.image?\tilde{O}(H\sqrt{d^3&space;T})" title="\tilde{O}(H\sqrt{d^3 T})" />
+where
+<img src="https://latex.codecogs.com/svg.image?H" title="H" />
+is the horizon,
+<img src="https://latex.codecogs.com/svg.image?d" title="d" />
+is the dimensionality of the state-action features and
+<img src="https://latex.codecogs.com/svg.image?T" title="T" />
+is the number of episodes. This is the first statistically and computationally efficient algorithm for reinforcement learning with generalized linear functions.'
 
 ## POMDPs
 
