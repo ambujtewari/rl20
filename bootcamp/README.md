@@ -216,6 +216,23 @@ Andrea Zanette, Alessandro Lazaric, Mykel Kochenderfer, Emma Brunskill
 [Learning Near Optimal Policies with Low Inherent Bellman Error](https://proceedings.icml.cc/static/paper_files/icml/2020/6299-Paper.pdf) ICML 2020\
 Studies finite horizon MDP with linear function approximation under mis-specification. With <img src="https://latex.codecogs.com/gif.latex?\epsilon" title="\epsilon" /> indicating the inherent Bellman error of linear function class, the regret of the algorithm is <img src="https://latex.codecogs.com/gif.latex?\tilde{O}(d\sqrt{H^3K}&plus;H^2\sqrt{d}\epsilon&space;K)" title="\tilde{O}(d\sqrt{H^3K}+H^2\sqrt{d}\epsilon K)" />.
 ____
+Ruosong Wang, Russ R. Salakhutdinov, Lin Yang
+[Reinforcement Learning with General Value Function Approximation: Provably Efficient Approach via Bounded Eluder Dimension](https://proceedings.neurips.cc/paper/2020/file/440924c5948e05070663f88e69e8242b-Paper.pdf)
+NeurIPS 2020 \
+'Value function approximation has demonstrated phenomenal empirical success in reinforcement learning (RL). Nevertheless, despite a handful of recent progress on developing theory for RL with linear function approximation, the understanding of general function approximation schemes largely remains missing. In this paper, we establish the first provably efficient RL algorithm with general value function approximation. We show that if the value functions admit an approximation with a function class 
+<img src="https://latex.codecogs.com/svg.image?\mathcal{F}" title="\mathcal{F}" />
+, our algorithm achieves a regret bound of 
+<img src="https://latex.codecogs.com/svg.image?\tilde{O}(poly(d&space;H)\sqrt{T})" title="\tilde{O}(poly(d H)\sqrt{T})" />
+where 
+<img src="https://latex.codecogs.com/svg.image?d" title="d" />
+is a complexity measure of 
+<img src="https://latex.codecogs.com/svg.image?\mathcal{F}" title="\mathcal{F}" />
+that depends on the eluder dimension and log-covering numbers, 
+<img src="https://latex.codecogs.com/svg.image?H" title="H" />
+is the planning horizon, and 
+<img src="https://latex.codecogs.com/svg.image?T" title="T" />
+is the number interactions with the environment. Our theory generalizes the linear MDP assumption to general function classes. Moreover, our algorithm is model-free and provides a framework to justify the effectiveness of algorithms used in practice.'
+____
 Yonathan Efroni, Shie Mannor, Matteo Pirotta
 [Exploration-Exploitation in Constrained MDPs](https://arxiv.org/pdf/2003.02189.pdf)
 arXiv 4 Mar 2020 \
