@@ -298,6 +298,10 @@ Melrose Roderick, Vaishnavh Nagarajan, J. Zico Kolter
 [Provably Safe PAC-MDP Exploration Using Analogies](https://arxiv.org/pdf/2007.03574.pdf)
 arXiv 7 Jul 2020
 ____
+Ronan Fruit, Matteo Pirotta, Alessandro Lazaric
+[Improved Analysis of UCRL2 with Empirical Bernstein Inequality](https://arxiv.org/pdf/2007.05456.pdf)
+arXiv 10 Jul 2020
+____
 Chen-Yu Wei, Mehdi Jafarnia-Jahromi, Haipeng Luo, Rahul Jain
 [Learning Infinite-horizon Average-reward MDPs with Linear Function Approximation](https://arxiv.org/pdf/2007.11849.pdf)
 arXiv 23 Jul 2020
