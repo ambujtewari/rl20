@@ -141,6 +141,10 @@ Christoph Dann, Tor Lattimore, Emma Brunskill
 [Unifying PAC and Regret: Uniform PAC Bounds for Episodic Reinforcement Learning](http://papers.nips.cc/paper/7154-unifying-pac-and-regret-uniform-pac-bounds-for-episodic-reinforcement-learning.pdf)
 NIPS 2017
 ____
+Mohammad Sadegh Talebi, Odalric-Ambrym Maillard 
+[Variance-Aware Regret Bounds for Undiscounted Reinforcement Learning in MDPs](http://proceedings.mlr.press/v83/talebi18a/talebi18a.pdf)
+ALT 2018
+____
 Chi Jin, Zeyuan Allen-Zhu, Sebastien Bubeck, Michael I. Jordan
 [Is Q-learning Provably Efficient?](https://papers.nips.cc/paper/7735-is-q-learning-provably-efficient.pdf)
 NeurIPS 2018 \
