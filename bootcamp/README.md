@@ -157,6 +157,9 @@ Christoph Dann, Lihong Li, Wei Wei, Emma Brunskill
 [Policy Certificates: Towards Accountable Reinforcement Learning](http://proceedings.mlr.press/v97/dann19a/dann19a.pdf) ICML 2019\
 Proposes a policy certificate notion which can unify PAC and regret bounds and proposes algorithms for tabular MDPs and MDPs with side-information. The tabular algorithm obtains minimax optimal PAC and regret bounds.
 ____
+Ronald Ortner
+[Regret Bounds for Reinforcement Learning via Markov Chain Concentration](https://doi.org/10.1613/jair.1.11316)
+____
 Max Simchowitz, Kevin G. Jamieson
 [Non-Asymptotic Gap-Dependent Regret Bounds for
 Tabular MDPs](https://papers.nips.cc/paper/8399-non-asymptotic-gap-dependent-regret-bounds-for-tabular-mdps.pdf)
