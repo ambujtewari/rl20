@@ -385,7 +385,7 @@ number of observations is larger than the number of latent states and where expl
 ____
 Yi Xiong, Ningyuan Chen, Xuefeng Gao, Xiang Zhou
 [Sublinear Regret for Learning POMDPs]()
-arXiv 14 Jul 2021
+arXiv 14 Jul 2021 \
 'We study the model-based undiscounted reinforcement learning for partially observable Markov decision processes (POMDPs). The oracle we consider is the optimal policy of the POMDP with a known environment in terms of the average reward over an infinite horizon. We propose a learning algorithm for this problem, building on spectral method-of-moments estimations for hidden Markov models, the belief error control in POMDPs and upper-confidence-bound methods for online learning. We establish a regret bound of
 <img src="https://latex.codecogs.com/svg.image?O(T^{2/3}\sqrt{\log&space;T})" title="O(T^{2/3}\sqrt{\log T})" />
 for the proposed learning algorithm where T is the learning horizon. This is, to the best of our knowledge, the first algorithm achieving sublinear regret with respect to our oracle for learning general POMDPs.'
