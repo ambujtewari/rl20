@@ -420,3 +420,7 @@ ____
 Sahin Lale, Kamyar Azizzadenesheli, Babak Hassibi, Anima Anandkumar
 [Adaptive Control and Regret Minimization in Linear Quadratic Gaussian (LQG) Setting](https://arxiv.org/pdf/2003.05999.pdf)
 arXiv 24 Jun 2020
+____
+Yassir Jedra, Alexandre Proutiere
+[Minimal Expected Regret in Linear Quadratic Control](https://arxiv.org/pdf/2109.14429.pdf)
+arXiv 29 Sep 2021
